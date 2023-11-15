@@ -29,10 +29,18 @@ body {
 /* Nav */
 .container{
   display: flex;
+  justify-content: space-around;
 }
 
 ul{
   display: flex;
+  list-style-type: none;
+}
+
+ul li a{
+  color: black;
+  text-decoration: none;
+
 }
 
 
@@ -208,13 +216,7 @@ ul{
 
 
 /* Footer Section */
-li {
- /* font-size: 60px;
-  padding-top: 40px;
-  padding-left: 200px;  */
-  padding-left: 400px;
-  list-style-type: none;
-}
+
 
 .footernav ul{
   display: flex;
