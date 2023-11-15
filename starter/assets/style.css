@@ -1,0 +1,266 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+
+
+/* Header */
+.main-header {
+  display: flex;
+  background-color: grey;
+  width: 100%;
+}
+
+/* Container */
+
+.container-fluid {
+  background-color: grey;
+}
+
+/* Nav */
+.navbar {
+  padding: 0 !important;
+}
+
+.name-section {
+  background-color: lightblue !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  text-decoration: none;
+  color: black; 
+  width: 30%; 
+  margin-left: -9px;
+  padding-left: 150px;
+}
+
+.navbar-brand {
+  font-family: 'Bebas Neue', sans-serif !important;
+  font-size: 50px !important;
+}
+
+.nav-link {
+  color: lightblue !important;
+  font-weight: bold !important;
+  text-decoration: underline !important;
+}
+
+.navbar-nav {
+  background-color: none;
+}
+
+.collapse {
+  justify-content: flex-end;
+}
+
+
+/* Image Banner */
+.image-banner img {
+  width: 100%;
+  max-height: 200px;
+}
+
+.image-banner {
+  position: relative;
+}
+
+
+.first-h2 {
+  position: absolute;
+    right: 50px;
+    bottom: 30px;
+    background-color: lightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* About Me Section */
+
+.page-wrapper {
+  padding-top: 30px;
+}
+
+.page-section h3 {
+  border-right: solid black 5px;
+  padding-right: 20px;
+  float: left;
+  clear: left; 
+  margin-right: 10px; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  height: 300px;
+}
+
+.page-section pre {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  overflow: hidden;
+}
+
+/* Project Section */
+#h2-work{
+  height: 20px;
+  border-right: 20px;
+}
+.projects-container{
+  display: flex;
+  justify-content: center;
+  border: 1px solid lightblue;
+  
+}
+
+.projects:hover{
+  opacity: 1;
+}
+
+.projects {
+  width: 40%;
+  position: relative;
+  opacity: 0.3;
+}
+
+#nike{
+  display: block;
+}
+
+
+
+ .nike-pic{
+  border-radius: 8px;
+  position: relative;
+  width: 40%;
+  height: 50px;
+  margin: 10px 5px 10px 5px;
+  background-image: url("../images/nike.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.adidas-pic {
+  border-radius: 8px; 
+  position: relative;
+  width: 40%;
+  height: 50px;
+  margin: 10px 5px 10px 5px;
+   background-image: url("../images/addy.jpg"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  
+  } 
+
+.reebok-pic {
+  border-radius: 18px;
+  position: relative;
+  width: 40%;
+  height: 50px;
+  margin: 10px 5px 10px 5px;
+ background-image: url("../images/reebok.jpg"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  
+} 
+
+.ua-pic {
+  border-radius: 8px;
+  position: relative;
+  width: 40%;
+  height: 50px;
+  margin: 10px 5px 10px 5px;
+   background-image: url("../images/uaa.jpg"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+ 
+} 
+
+#nike-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-left: 5px;
+  background-color: lightblue;
+  color: black;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+#adidas-text {
+  position: absolute;
+  padding-left: 5px;
+  background-color: lightblue;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  ;
+}
+
+#reebok-text {
+  position: absolute;
+  bottom: -700px;
+  padding-left: 5px;
+  background-color: lightblue;
+  color: black;
+  margin-left: 320px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#u-a-text {
+  position: absolute;
+  bottom: -705px;
+  padding-left: 5px;
+  background-color: lightblue;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.subtext{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+
+/* Footer Section */
+li {
+ /* font-size: 60px;
+  padding-top: 40px;
+  padding-left: 200px;  */
+  padding-left: 400px;
+  list-style-type: none;
+}
+
+.footernav ul{
+  display: flex;
+  list-style-type: none;
+
+}
+
+
+
+.footernav ul li{
+  margin-right: 10px;
+}
+
+.footerBottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*  /flex-direction: column; 
+  height: 100%; */
+}
+
+.footerBottom p{
+padding-left: 20px;
+text-align: center;
+}
