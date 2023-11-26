@@ -218,7 +218,7 @@ span {
 /* Project Images */
 
 .project1 {
-  background-image: url(../images/nikeNew.jpg);
+  background-image: url(./images/nikeNew.jpg);
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -231,7 +231,7 @@ span {
 }
 
 .project2 {
-  background-image: url(../images/addyNew.jpg);
+  background-image: url(./images/addyNew.jpg);
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -244,7 +244,7 @@ span {
 }
 
 .project3 {
-  background-image: url(../images/reebokNew.jpg);
+  background-image: url(./images/reebokNew.jpg);
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -257,7 +257,7 @@ span {
 }
 
 .project4 {
-  background-image: url(../images/uaaNew.jpg);
+  background-image: url(./images/uaaNew.jpg);
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
